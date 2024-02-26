@@ -1,0 +1,26 @@
+HISTORY
+
+- Microsoft LAPS was released in 2016
+
+
+USAGE:
+- Automatically manages and backs up the password of a local administrator account on your Microsoft Entra joined or Windows Server Active Directory-joined devices
+- Windows LAPS to regularly rotate and manage local administrator account passwords
+
+- To validate whether LAPS has been installed on 
+
+	C:\Program Files\LAPS\CSE\admPwd.dll
+
+
+
+LICENSING:
+
+- Windows LAPS is free in all supported Windows platforms
+
+
+
+
+ACRONYMS
+
+LAPS		- Local Administrator Password Solution
+DSRM		- Directory Services Restore Mode
