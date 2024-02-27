@@ -7,7 +7,7 @@ USAGE:
 - Automatically manages and backs up the password of a local administrator account on your Microsoft Entra joined or Windows Server Active Directory-joined devices
 - Windows LAPS to regularly rotate and manage local administrator account passwords
 
-- To validate whether LAPS has been installed on 
+- To validate whether LAPS has been installed on a client machine, check for the presence of the following 
 
 	C:\Program Files\LAPS\CSE\admPwd.dll
 
