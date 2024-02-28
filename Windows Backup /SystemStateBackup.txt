@@ -1,0 +1,26 @@
+
+
+
+
+To list details of backups that can be revoered
+
+    WBADMIN GET VERSIONS
+
+
+Once 
+
+To delete all versions of a SystemState backup stored in the backup catalog
+
+    WBADMIN DELETE SYSTEMSTATEBACKUP -keepversions:0
+
+To backup the SystemState to a local (D:\) partition:
+
+    WBADMIN START SYSTEMSTATEBACKUP -backupTarget:D:
+
+To backup the SystemState to a a network partition:
+
+    WBADMIN START SYSTEMSTATEBACKUP -backupTarget:\\
+
+
+
+
