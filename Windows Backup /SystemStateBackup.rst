@@ -2,7 +2,7 @@
 
 
 
-* To list details of backups that can be revoered
+* To list all the details of backups that can be restored, use the following:
 
     WBADMIN GET VERSIONS
 
@@ -16,12 +16,12 @@ Once
 
     WBADMIN START SYSTEMSTATEBACKUP -backupTarget:D:
 
-* To backup the SystemState to a a network partition:
+* To backup the SystemState to a network partition:
 
     WBADMIN START SYSTEMSTATEBACKUP -backupTarget:\\
 
 
-
+----
 * By default, it is not possisble to backup systemstate information to the local system partition i.e. C:\ however, there is a workaround 
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup\  
