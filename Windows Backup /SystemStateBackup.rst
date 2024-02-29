@@ -1,7 +1,3 @@
-
-
-
-
 * To list all the details of backups that can be restored, use the following:
 
     WBADMIN GET VERSIONS
