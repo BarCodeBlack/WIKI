@@ -16,8 +16,6 @@ Once
 
     WBADMIN START SYSTEMSTATEBACKUP -backupTarget:\\
 
-
-----
 * By default, it is not possisble to backup systemstate information to the local system partition i.e. C:\ however, there is a workaround 
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup\  
