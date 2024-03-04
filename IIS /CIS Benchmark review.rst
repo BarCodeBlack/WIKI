@@ -1,5 +1,6 @@
 * 1.2 Ensure 'host headers' are on all sites
-    
+    Host headers permit accessing multiple websites via the same unique IP address
+    COnfigured via 
 * 2.2 Ensure access to sensitive site features is restricted to authenticated principals only
     
 * 2.3 Ensure 'forms authentication' require SSL - Default
