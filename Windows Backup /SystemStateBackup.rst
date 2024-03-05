@@ -18,10 +18,10 @@
     WBADMIN START SYSTEMSTATEBACKUP -backupTarget:\\<Servername>\<Folder>
 
 
-* By default, it is not possisble to backup systemstate information to the local system partition i.e. C:\ however, there is a workaround 
+* By default, it is not possisble to backup systemstate information to the local system partition i.e. C:\ however, there is a workaround by applying the following registry edit:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup\  
+    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup\  
  
-Name: AllowSSBToAnyVolume
-Data type: DWORD
-Value data: 1
+    Name: AllowSSBToAnyVolume
+    Data type: DWORD
+    Value data: 1
