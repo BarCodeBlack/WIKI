@@ -20,13 +20,7 @@
 
 * By default, it is not possisble to backup systemstate information to the local system partition i.e. C:\ however, there is a workaround by applying the following registry edit:
 
-    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup\  
- 
-    Name: AllowSSBToAnyVolume
-    Data type: DWORD
-    Value data: 1
+    Windows Registry Editor Version 5.00
 
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup]
-"AllowSSBToAnyVolume"=dword:00000001
+    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup]
+    "AllowSSBToAnyVolume"=dword:00000001::
