@@ -25,3 +25,8 @@
     Name: AllowSSBToAnyVolume
     Data type: DWORD
     Value data: 1
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wbengine\SystemStateBackup]
+"AllowSSBToAnyVolume"=dword:00000001
