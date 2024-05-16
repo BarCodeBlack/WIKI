@@ -1,16 +1,16 @@
 # -------------------------------------------------------------------------------------------------
 # Original Script: C:\Script\Check_Password_Age.ps1
 # Version: 1.0
-# Author: Paul Lambert
+# Author: To Be Confirmed
 # Date: 16/05/2024
 # Description: Script for checking password age for accounts that password never expires.
-# Comments: 	Target of backup C:\WindowsImageBackup
-# Conditions: 	Not applicable
+# Comments: 
+# Conditions: Not applicable
 # -------------------------------------------------------------------------------------------------
 
 $SmtpServer="185.132.180.41"
-$From="CheckPasswordAge@axa-assistance.es"
-$emailaddress="sergio.escobar@axa-assistance.es, infrastructure@axa-assistance.es"
+$From="CheckPasswordAge@barcodeblack.es"
+$emailaddress="infrastructure@barcodeblack.es"
 
 $Accounts=Get-ADUser -Properties Name, UserPrincipalName, DistinguishedName, Employeeid, PasswordNeverExpires, PasswordLastSet -Filter {PasswordNeverExpires -eq 'true' -and Enabled -eq 'true'}
 
