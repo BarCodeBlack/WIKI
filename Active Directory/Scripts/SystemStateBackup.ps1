@@ -19,7 +19,7 @@ Remove-Item -PATH C:\WindowsImageBackup\$env:COMPUTERNAME -Recurse >>%LOGFILE%
 WBADMIN START SYSTEMSTATEBACKUP -backupTarget:C: -quiet >>%LOGFILE%
 
 
-$SmtpServer = "185.132.180.41"
+$SmtpServer = "100.100.100.100"
 $To = "<Email addresseses>"
 $From = "<Email addresseses>"
 $Event =  Get-WinEvent -LogName Microsoft-Windows-Backup -MaxEvents 3 | Where-Object { $_.Id -eq '4' }
